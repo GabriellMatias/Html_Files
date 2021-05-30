@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Sistemas Quezartson</title>
+  
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .form-group{text-align: center;}
+    .requisitos{font-size: 110%; margin-left: 1%}
+    .requisitos2{font-size: 160%; text-align: center; margin-left: 5%;}
+    #bntt{margin-left: 45%;}
+    .img2{border-radius:15px; width: 650px; height:350px;}
+    .Download2{font-size: 130%; margin-left: 1%}
+    .Download{font-size: 200%; text-align: center; margin-left: 5%;}
+
+
+  </style>
+</head>
+<body>
+
+  <!--Inicio do navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="icone/Icone.png" alt="" width="30">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index_Paginicial.html">Quezartson</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Index_ICP.html">Tecnologia ICP</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Suporte
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index_Assistencia_tecnica.html">Assisstência técnica</a></li>
+              <li><a class="dropdown-item" href="index_Pag_Download.html">Downloads</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Perguntas Frequentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Index_pagina_Login.html" tabindex="-1" aria-disabled="true">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--FIM do navbar-->
+
+  <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="Download">Download</h2>
+          <br>
+          <p class="Download2">Clique abaixo para realizar o Download da sua aplicacao<br>
+            Tenha certeza que ja tenha adiquirido a assinatura para evitar maiores problemas na instalação do programa. <br>
+            Leia atentamente as instruções da instalação e verifique se sua maquina e compativel com nossos programas, quaisquer 
+            duvidas, contate-nos na aba do Suporte.
+          </p>
+          <br><br>
+          <button id="bntt" type="button" class="btn btn-primary">Download</button>
+        </div>
+        <div class="col-md-5">
+          <div class="carousel-item active">
+            <img src="Download.png" class="img2">
+          </div>
+          
+          
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="requisitos2">Requisitos minímos do sistema</h2>
+          <br><br>
+          <p class="requisitos"><b>Processador</b>: Intel Core i3-3210 3.2 GHz/ AMD A8-7600 APU 3.1 GHz ou equivalente <br>
+            <b>Placa de vídeo</b>: Nvidia GeForce série 400 ou AMD Radeon HD série 7000 com OpenGL 4.4 <br>
+            <b>RAM</b> : 4GB <br>
+            <b>HDD</b>: Pelo menos 1 GB para o Programa principal e outros arquivos <br>
+            <b>Sistema Operacional</b>: <br> Windows: Windows 7 and up <br>
+            macOS: Any 64-bit OS X using 10.9 Maverick or newer <br>
+            Linux: Any modern 64-bit distributions from 2014 onwards <br>
+
+          </p>
+        </div>
+
+
+  <!-- FOOTER -->
+  <footer class="container py-5">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020-2021 Quezartson Enterprise, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+
+
+  <!--SCRIPTS DO BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="bootstrap.js"></script>
+  <!--SCRIPTS DO BOOTSTRAP -->
+</body>
+</html>

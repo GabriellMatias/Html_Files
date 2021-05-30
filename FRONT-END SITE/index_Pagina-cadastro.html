@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Sistemas Quezartson</title>
+  
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    #cadastro{margin-top: 15%;margin-left: 35%;margin-right: 50% ; border-radius: 15px;text-align:center; border: 1px solid white; font-size: 19px;
+    background-color: #00a17e; width: 500px;
+    }
+
+  </style>
+</head>
+<body background="Backgroud_cadastro.jpg">
+
+  <!--Inicio do navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="icone/Icone.png" alt="" width="30">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index_Paginicial.html">Quezartson</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Index_ICP.html">Tecnologia ICP</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Suporte
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index_Assistencia_tecnica.html">Assisstência técnica</a></li>
+              <li><a class="dropdown-item" href="index_Pag_Download.html">Downloads</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Perguntas Frequentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Index_pagina_Login.html" tabindex="-1" aria-disabled="true">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--FIM do navbar-->
+
+<!--FORMULÁRIO DE CADASTRO-->
+<div id="cadastro">
+    <form method="post" action=""> 
+      <h1>Cadastro</h1> 
+       
+      <p> 
+        <label for="nome_cad">Nome da Corporação</label>
+        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+      </p>
+      <p> 
+        <label for="cnpj_cad">Informe o CNPJ</label>
+        <input id="cnpj_cad" name="cnpj_cad" required="required" type="text" placeholder="cnpj" />
+      </p>
+       
+      <p> 
+        <label for="email_cad">E-Mail</label>
+        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="Name@email.com"/> 
+      </p>
+       
+      <p> 
+        <label for="senha_cad">Crie uma Senha</label>
+        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+      </p>
+      <p> 
+        <label for="senha_cad">Digite a senha novamente</label>
+        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+      </p>
+      <p> 
+        <button type="button" class="btn btn-primary">Cadastrar</button> 
+      </p>
+       
+      <p class="link">  
+        Já tem conta?
+        <a href="Index_pagina_Login.html"> Ir para Login </a>
+      </p>
+    </form>
+  </div>
+</div>
+</div>  
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+ <!-- FOOTER -->
+ <footer class="container py-5">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020-2021 Quezartson Enterprise, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+
+
+  <!--SCRIPTS DO BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="bootstrap.js"></script>
+  <!--SCRIPTS DO BOOTSTRAP -->
+</body>
+</html>
