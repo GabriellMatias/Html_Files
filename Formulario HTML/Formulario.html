@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO]</title>
+    <link rel="stylesheet" type="text/css" href="Formulario.css">
+    <link rel="stylesheet" href="PaginaFinal.html">
+</head>
+
+<body>
+    <div class="campo">
+        <h1 id= "cabecalho">Formulario Para DEVs</h1>
+        <p id= "subtitulo">Insira suas informacoes</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class= "grupo1"> 
+            <div class="campo">
+                <label for="nome"><strong> Insira o Nome </strong></label>
+                <input type="text" name="Nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Insira o Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" name="Email" id="email" required>
+        </div>
+        <div class="campo">
+            <label><strong>Qual sua area e desenvolvimento?</strong></label>
+            <label>
+                <input type="radio" name="devweb" id="frontend">Front-End
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="backend">Back-End
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="fullstack">Full-Stack
+            </label>
+        </div>
+        <div class="campo">
+            <label><strong>Nivel</strong></label>
+            <select name="nivel" id="nivel">
+                <option selected disabled value="">Selecione</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </div>
+        <fieldset class= "grupo1">
+            <div class="check">
+                <label><strong>Selecione as linguagens que utiliza</strong></label>
+                <input type="checkbox" name="ling1" id="ling1" value="HTML">
+                <label for="ling1">HTML</label>
+                <input type="checkbox" name="ling2" id="ling2" value="CSS">
+                <label for="ling3">CSS</label>
+                <input type="checkbox" name="ling3" id="ling3" value="Java Script">
+                <label for="ling4">Java Script</label>
+                <input type="checkbox" name="ling4" id="ling4" value="PHP">
+                <label for="ling4">PHP</label>
+                <input type="checkbox" name="ling5" id="ling5" value="C+/C#">
+                <label for="ling5">C+/C#</label>
+                <input type="checkbox" name="ling6" id="ling6" value="Python">
+                <label for="ling6">Python</label>
+                <input type="checkbox" name="ling7" id="ling7" value="Java">
+                <label for="ling7">Java</label>
+            </div>
+        </fieldset>
+        <div>
+            <br>
+            <label for="sobrePessoa">Nos conte um pouco sobre voce!</label>
+            <br>
+            <textarea  name="sobre" id="sobrePessoa" cols="70" rows="7"></textarea>
+        </div>
+        <button type="submit" class="botao"> <a target="_blank" href="PaginaFinal.html"></a> Concluido</button>
+    </form>
+</body>
+</html>
